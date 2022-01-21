@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cloud Manager"
+        android:textSize="30dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="120dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/username_ico">
+        </ImageView>
+
+        <EditText
+            android:id="@+id/usernameInput"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:hint="UserName"
+            android:textAlignment="center">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/password_ico"></ImageView>
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:hint="Password"
+            android:textAlignment="center">
+        </EditText>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="90dp"
+        android:text="Entrar">
+    </Button>
+
+
+</LinearLayout>

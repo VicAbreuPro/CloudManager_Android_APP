@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1wall">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Sale"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"></TextView>
+
+    <EditText
+        android:id="@+id/sale_model_Input"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="80dp"
+        android:backgroundTint="@color/white"
+        android:hint="Sale Product Model"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/sale_p_serial_Input"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:backgroundTint="@color/white"
+        android:hint="Product Serial Nº"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/s_value_Input"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:backgroundTint="@color/white"
+        android:hint="Sale Product Value €"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/s_date_Input"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:backgroundTint="@color/white"
+        android:hint="Sale Date yyyy-mm-dd"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/s_cliID_Input"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:backgroundTint="@color/white"
+        android:hint="Sale Client ID"
+        android:textAlignment="center"></EditText>
+
+    <Button
+        android:id="@+id/addSale"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ADD SALE"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="15dp"></Button>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="15dp"></Button>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1wall">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="190dp"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Cloud Manager">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serial Number"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Model"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="70dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="83dp"
+            android:text= "Value €"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/productList"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        tools:listitem="@layout/p_list_item">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="130dp">
+
+        <ImageView
+            android:id="@+id/logoutP"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="120dp"
+            android:src="@drawable/white_button_logout">
+        </ImageView>
+
+    </LinearLayout>
+</LinearLayout>
